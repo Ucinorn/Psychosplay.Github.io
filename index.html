@@ -4,8 +4,13 @@
 		<meta charset="utf-8">
 		<title>Vertical Monopoly</title>
 		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 	</head>
 <body>
+<div class="row">
+    <div class="col-xs">
+        <div class="sidebar" style="width: 300px;">
+	    
 <table id="land">
 		<caption><h1> Resources:</h1></caption>
 <tr>
@@ -48,8 +53,8 @@
 	</td>
 </tr>
 </table>
-		<br />
-	
+</div>
+<div class="main">
 	<!-- also add in an empty status text area -->
 	<br /><br />
 	<h3><span id="tillautosave"> </span> seconds until autosave</h3>
@@ -654,6 +659,8 @@
 			<input type="button" id="delete" value="Delete" />
 		</div>
 
-
+	</div>
+    </div>
+</div>	
   </body>
 </html>
